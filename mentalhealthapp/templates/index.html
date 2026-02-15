@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mental Health Checkup</title>
+</head>
+<body>
+    <h2>Mental Health Checkup</h2>
+
+    <form action="/submit" method="POST">
+
+        <p>1. Do you feel sad frequently?</p>
+        <input type="radio" name="q1" value="0" required> Never
+        <input type="radio" name="q1" value="1"> Sometimes
+        <input type="radio" name="q1" value="2"> Often
+
+        <p>2. Do you feel anxious?</p>
+        <input type="radio" name="q2" value="0" required> Never
+        <input type="radio" name="q2" value="1"> Sometimes
+        <input type="radio" name="q2" value="2"> Often
+
+        <p>3. Trouble sleeping?</p>
+        <input type="radio" name="q3" value="0" required> Never
+        <input type="radio" name="q3" value="1"> Sometimes
+        <input type="radio" name="q3" value="2"> Often
+
+        <p>4. Low energy?</p>
+        <input type="radio" name="q4" value="0" required> Never
+        <input type="radio" name="q4" value="1"> Sometimes
+        <input type="radio" name="q4" value="2"> Often
+
+        <p>5. Avoid social interaction?</p>
+        <input type="radio" name="q5" value="0" required> Never
+        <input type="radio" name="q5" value="1"> Sometimes
+        <input type="radio" name="q5" value="2"> Often
+
+        <br><br>
+        <button type="submit">Check Result</button>
+    </form>
+
+</body>
+</html>
