@@ -29,24 +29,8 @@ VS Code / Command Prompt – Development environment
 
 ⚙ Working of the System
 
-User opens the web application.
-
-A questionnaire is displayed.
-
-User selects answers (Never / Sometimes / Often).
-
-The system assigns scores to each answer.
-
-Total score is calculated in the backend.
-
-Based on score range:
-
-Low score → Mentally healthy
-
-Medium score → Mild stress
-
-High score → High stress
-
+User opens the web application.A questionnaire is displayed.User selects answers (Never / Sometimes / Often).The system assigns scores to each answer.
+Total score is calculated in the backend.Based on score range:Low score → Mentally healthyMedium score → Mild stressHigh score → High stress
 Result is displayed to the user.
 
 💡 Features
